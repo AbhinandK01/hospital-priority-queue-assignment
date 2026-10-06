@@ -1,0 +1,10 @@
+Max Heap insertion trace (array representation)
+Input file: input\patient_severity.txt
+Insert 45: [45] | comparisons: 0 | swaps: 0
+Insert 72: [72, 45] | comparisons: 1 | swaps: 1
+Insert 30: [72, 45, 30] | comparisons: 1 | swaps: 0
+Insert 90: [90, 72, 30, 45] | comparisons: 2 | swaps: 2
+Insert 65: [90, 72, 30, 45, 65] | comparisons: 1 | swaps: 0
+Insert 50: [90, 72, 50, 45, 65, 30] | comparisons: 2 | swaps: 1
+Insert 85: [90, 72, 85, 45, 65, 30, 50] | comparisons: 2 | swaps: 1
+Highest priority (heap root): 90
