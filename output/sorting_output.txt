@@ -1,0 +1,20 @@
+Heap Sort (ascending; max heap)
+Initial: [45, 72, 30, 90, 65, 50, 85]
+Max heap built: [90, 72, 85, 45, 65, 50, 30]
+Move max 90 to index 6: [85, 72, 50, 45, 65, 30, 90] | active heap size: 6
+Move max 85 to index 5: [72, 65, 50, 45, 30, 85, 90] | active heap size: 5
+Move max 72 to index 4: [65, 45, 50, 30, 72, 85, 90] | active heap size: 4
+Move max 65 to index 3: [50, 45, 30, 65, 72, 85, 90] | active heap size: 3
+Move max 50 to index 2: [45, 30, 50, 65, 72, 85, 90] | active heap size: 2
+Move max 45 to index 1: [30, 45, 50, 65, 72, 85, 90] | active heap size: 1
+Sorted: [30, 45, 50, 65, 72, 85, 90]
+Comparisons: 21 | swaps: 18
+
+Quick Sort (ascending; Lomuto partition, last element pivot)
+Initial: [45, 72, 30, 90, 65, 50, 85]
+Partition [0..6], pivot 85 at index 5: [45, 72, 30, 65, 50, 85, 90]
+Partition [0..4], pivot 50 at index 2: [45, 30, 50, 65, 72]
+Partition [0..1], pivot 30 at index 0: [30, 45]
+Partition [3..4], pivot 72 at index 4: [30, 45, 50, 65, 72]
+Sorted: [30, 45, 50, 65, 72, 85, 90]
+Comparisons: 12 | swaps: 6
